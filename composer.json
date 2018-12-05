@@ -1,0 +1,24 @@
+{
+    "name": "kingshark8848/logixcrm-sdk-php",
+    "description": "PHP SDK for LogixCRM",
+    "keywords": ["template", "composer", "package"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shawn Wang",
+            "email": "kingshark8848@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=5.4.0"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kingshark8848\\LogixCrmSdkPhp\\": "src/"
+        }
+    }
+}
