@@ -8,9 +8,9 @@ use PHPUnit\Framework\TestCase;
  *  For each class in your library, there should be a corresponding Unit-Test for it
  *  Unit-Tests should be as much as possible independent from other test going on.
  *
- * @author yourname
+ * @author shawn wang
  */
-class YourClassTest extends TestCase
+class HelloWorldTest extends TestCase
 {
 
     /**
